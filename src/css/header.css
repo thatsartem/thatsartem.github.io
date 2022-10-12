@@ -1,0 +1,19 @@
+body {
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
+    text-rendering: optimizeLegibility; 
+}
+
+.header {
+    background: #B099F7;
+    width: 100%;
+    display: flex;
+    justify-content: end;
+    font-weight: 100;
+}
+
+.header .title {
+    color: #fff;
+    padding: 15px;
+    font-size: 60px;
+}

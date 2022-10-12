@@ -1,0 +1,24 @@
+.buttons{
+    margin: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-content: center;
+    flex-wrap: wrap;
+}
+
+.task-button{
+    font-size: 2.5em;
+    border: 4px solid #F7DF99;
+    background: #F7DF99;
+    color: #fff;
+    padding: 15px;
+    border-radius: 10px;
+    margin-bottom: 20px;
+}
+
+.task-button:hover {
+    transition: 200ms;
+    background: #fff;
+    color: #F7DF99;
+}
